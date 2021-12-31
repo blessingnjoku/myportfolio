@@ -68,7 +68,7 @@
           <h1 class="home__title">
             Hi,<br />I'm <span class="home__title-color">Blessing Njoku</span
             ><br />
-            Web Developer
+            FrontEnd Developer
           </h1>
 
           <a href="#contact" class="button">Hire Me</a>
@@ -76,7 +76,7 @@
 
         <div class="home__social">
           <a
-            href="https://www.linkedin.com/in/njoku-blessing-a8487b2"
+            href="https://www.linkedin.com/in/njoku-blessing-a8487b203/"
             class="home__social-icon"
             ><i class="bx bxl-linkedin"></i
           ></a>
@@ -112,7 +112,7 @@
               passionate about creating solutions through codes for users and
               expoloring easier ways of simplyfing users expirence
             </p>
-            <a href="https://zety.com/profile/njokublessing" class="button"
+            <a href="https://app.netlify.com/sites/blessingnjokuresume" class="button"
               >View Resume</a
             >
           </div>
@@ -136,7 +136,7 @@
             <div class="skills__data">
               <div class="skills__names">
                 <i class="bx bxl-css3 skills__icon"></i>
-                <span class="skills__name">CSS3</span>
+                <span class="skills__name">CSS3/SASS</span>
               </div>
             </div>
 
@@ -164,6 +164,20 @@
                 <span class="skills__name">React Native</span>
               </div>
             </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-react.js skills__icon"></i>
+                <span class="skills__name">Typescript</span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-react.js skills__icon"></i>
+                <span class="skills__name">Nest js</span>
+              </div>
+            </div>
             <div class="skills__data">
               <div class="skills__names">
                 <i class="bx bxs-paint skills__icon"></i>
@@ -181,8 +195,96 @@
       <!--===== WORK =====-->
       <section class="work section" id="work">
         <h2 class="section-title">Work</h2>
+        <div class="btns">
 
-        <div class="work__container bd-grid">
+          <button id="design"class="active" onclick="DisplayCategory(this)">WEB DESIGNING</button>
+          <button id="uiux"  onclick="DisplayCategory(this)">UI/UX DESIGNING</button>
+          <button id="react"  onclick="DisplayCategory(this)">REACT PROJECTS</button>
+          <button id="app"  onclick="DisplayCategory(this)">MOBILE APPLICATION</button>
+         
+
+
+        </div>
+         
+
+         <div class="category-design showCategory work__container">
+          <a href="https://burgerresturant.netlify.app/" class="work__img"><img src="assets/img/burger.png" alt="" /> 
+            <span class="viewsite" style="text-align: center;">Burger Resturant</span>
+            
+
+          </a>
+          <a href="https://getcure.netlify.app/" class="work__img"><img src="assets/img/hospitaldesign.png" alt="" />
+            <span class="viewsite" style="text-align: center;">HOSPITAL SITE</span>
+          
+          </a>
+          <a href="https://wordmatchgame.netlify.app/" class="work__img"><img src="assets/img/wordmatch.png" alt="" />
+            <span class="viewsite" style="text-align: center;">WORD MATCH GAME</span>
+          
+          </a>
+          <a href="https://dreamleisure.netlify.app/" class="work__img"><img src="assets/img/travel.png" alt="" />
+            <span class="viewsite" style="text-align: center;">TOURIST SITE</span>
+          
+          </a>
+          <a href="" class="work__img"><img src="assets/img/teslatfuniture.png "alt="" />
+            <span class="viewsite" style="text-align: center;">FURNITURE SITE</span>
+          
+          </a>
+          <a href="" class="work__img"><img src="assets/img/medic.png "alt="" />
+            <span class="viewsite" style="text-align: center;">MEDICS SITE</span>
+          
+          </a>
+        
+
+        </div>
+
+        <div class="category-uiux hideCategory work__container">
+          <a href="https://www.behance.net/blessingnjoku" class="work__img"><img src="assets/img/newsCard.png" alt="" /> </a>
+          <a href="https://www.behance.net/gallery/123888085/Freelance-website-design?tracking_source=project_owner_other_projects"class="work__img"><img src="assets/img/fem.png" alt="" /></a>
+          <a href=""class="work__img"><img src="assets/img/wordmatch.png" alt="" /></a>
+          <a href="https://www.behance.net/blessingnjoku"class="work__img"> <img src="assets/img/getshopui.png" alt="" /></a>
+          <a href=""class="work__img"> <img src="assets/img/uiblog.png" alt="" /></a>
+          <a href="https://www.behance.net/gallery/123885961/Newsblog-site"class="work__img"> <img src="assets/img/asedeyhot.png" alt="" /></a>
+          <a href=""class="work__img"> <img src="assets/img/massenger.png" alt="" /></a>
+          <a href="https://www.behance.net/gallery/134108713/STATUS-CONTROL-SYSTEM?"class="work__img"> <img src="assets/img/alto.png" alt="" /></a>
+          
+          <a href="https://www.behance.net/gallery/124198043/Kids-game-catalog"class="work__img"> <img src="assets/img/kidsgame.png" alt="" /></a>
+          <a href="https://www.behance.net/gallery/123893385/Taskmanager"class="work__img"> <img src="assets/img/taskm.png" alt="" /></a>
+          
+
+        </div>
+
+        <div class="category-react hideCategory work__container">
+          <a href="https://vybzz.netlify.app/"class="work__img"><img src="assets/img/vybes.png" alt="" />
+            <span class="viewsite" style="text-align: center;">VYBES VENTURE</span>
+          
+          </a>
+
+          <a href="https://asedeyhotnews.netlify.app/"class="work__img"> <img src="assets/img/asedeyhot.png" alt="" />
+            <span class="viewsite" style="text-align: center;">NEWS BLOG</span>
+          </a>
+         
+          <a href="https://newnerdyeye.herokuapp.com/"class="work__img"><img src="assets/img/nerdyeye.png" alt="" />
+            <span class="viewsite" style="text-align: center;">NERDYEYE WEBSITE</span>
+          
+          </a>
+          
+        </div> 
+        
+        <div class="category-app hideCategory work__container">
+      
+          <a href="https://github.com/blessingnjoku/getshop"class="work__img"><img src="assets/img/getshopui.png" alt="" />
+            <span class="viewsite" style="text-align: center;">GETSHOP MOBILE APP</span>
+          
+          </a>
+          
+
+        </div> 
+
+
+
+
+
+        <!-- <div class="work__container bd-grid category-design showCategory ">
           <div class="work__img">
             <img src="assets/img/asedeyhot.png" alt="" />
             <span class="news">News Aggregator</span>
@@ -256,6 +358,71 @@
             </button>
           </div>
         </div>
+
+
+        <div class="work__container bd-grid hideCategory category-uiux">
+          <div class="work__img">
+            <img src="assets/img/asedeyhot.png" alt="" />
+          
+          </div>
+          <div class="work__img">
+            <img src="assets/img/burger.png" alt="" />
+           
+          </div>
+          <div class="work__img">
+            <img src="assets/img/hospitaldesign.png" alt="" />
+           
+          </div>
+          <div class="work__img">
+            <img src="assets/img/wordmatch.png" alt="" />
+            
+          </div>
+          <div class="work__img">
+            <img src="assets/img/pagesite.png" alt="" />
+            
+          </div>
+          <div class="work__img">
+            <img src="assets/img/travel.png" alt="" />
+           
+          </div>
+        </div>
+
+      
+          <div class="work__img">
+            <img src="assets/img/hospitaldesign.png" alt="" />
+           
+          </div>
+          <div class="work__img">
+            <img src="assets/img/wordmatch.png" alt="" />
+            
+          </div>
+          <div class="work__img">
+            <img src="assets/img/pagesite.png" alt="" />
+            
+          </div>
+          <div class="work__img">
+            <img src="assets/img/travel.png" alt="" />
+           
+          </div>
+        </div>
+
+        <div class="work__container bd-grid hideCategory category-react">
+          <div class="work__img">
+            <img src="assets/img/asedeyhot.png" alt="" />
+          
+          </div>
+          <div class="work__img">
+            <img src="assets/img/burger.png" alt="" />
+           
+          </div>
+          <div class="work__img">
+            <img src="assets/img/hospitaldesign.png" alt="" />
+           
+          </div>
+          <div class="work__img">
+            <img src="assets/img/wordmatch.png" alt="" />
+            </div>
+       -->
       </section>
 
       <!--===== CONTACT =====-->
@@ -298,5 +465,6 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
